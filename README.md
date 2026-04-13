@@ -35,7 +35,7 @@ O **Donation Manager** é uma aplicação de linha de comando (CLI) projetada pa
    git clone [https://github.com/joaowictorr/donations-manager.git](https://github.com/joaowictorr/donations-manager.git)
    cd donations-manager
 
-2. Configurar o Ambiente Virtual (Recomendado)
+2. **Configurar o Ambiente Virtual (Recomendado)**
 O ambiente virtual isola as dependências do projeto para evitar conflitos:
 
 ```bash
@@ -44,14 +44,15 @@ python -m venv venv
 .\venv\Scripts\activate
 
 source venv/bin/activate
+```
 
-3. Instalar Dependências
+3. **Instalar Dependências**
 Com o ambiente ativo, instale os pacotes necessários:
 
 ```bash
 pip install -r requirements.txt
-
-4. Rodar a Aplicação
+```
+4. **Rodar a Aplicação**
 Para iniciar o sistema de gestão, execute o comando abaixo na raiz do projeto:
 
 ```bash
